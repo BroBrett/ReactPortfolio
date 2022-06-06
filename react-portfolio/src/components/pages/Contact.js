@@ -30,13 +30,7 @@ function Contact() {
       from_email: '',
       message: ''
     })
-  
-    // function validateEmail(event) {
-    //   const email = event.target.value;
-    //   let regex = /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}/i;
-  
-    // }
-  
+    
     function validateFormFields(event) {
       const { name, value } = event.target;
   
@@ -89,14 +83,8 @@ function Contact() {
   
     return (
       <div>
-        <h1>Email Me Directly</h1>
-        <h6 className="contact-p">(Please complete the form below to send me an email - the submit button will appear once form is filled)</h6>
-        {/* <form
-          // action="mailto:brettstephenhockridge@yahoo.com"
-          // method="post"
-          encType="text/plain"
-          name="EmailForm"
-        > */}
+        <h1>Email Me</h1>
+        <h6 className="contact-p">(Submit button will appear when all fields are completed)</h6>
         <div className="mainContact">
         <div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
           <input
@@ -156,7 +144,6 @@ function Contact() {
           >
           Please complete all fields to submit.
           </p>
-        {/* </form> */}
         </div>
         </div>
       </div>

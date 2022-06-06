@@ -11,7 +11,6 @@ export default function Portfolio() {
       <div className="page">
         <h1>My Portfolio</h1>
         <div className="card-container d-flex flex-row flex-wrap">
-          {/* The Cloud Casino */}
           <a
             href="https://glacial-reef-71102.herokuapp.com/"
             alt="The Cloud Casino Full Stack Web Application"
