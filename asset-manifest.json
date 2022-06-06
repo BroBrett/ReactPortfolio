@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/ReactPortfolio/static/css/main.7c561dda.css",
+    "main.js": "/ReactPortfolio/static/js/main.db5bdda9.js",
+    "static/media/weatherdashboard.png": "/ReactPortfolio/static/media/weatherdashboard.6eb492c4e4722b3bd493.png",
+    "static/media/Bretts-selfie.jpg": "/ReactPortfolio/static/media/Bretts-selfie.c043a6a842cf6a211610.jpg",
+    "static/media/thecloudcasino.png": "/ReactPortfolio/static/media/thecloudcasino.3737a9f19791f5d1d552.png",
+    "static/media/markettalk.png": "/ReactPortfolio/static/media/markettalk.5ea3b5b2c59032f00ba6.png",
+    "static/media/express.png": "/ReactPortfolio/static/media/express.6a3e055a6226b08114ef.png",
+    "static/media/css3.png": "/ReactPortfolio/static/media/css3.19c8605d6b2861f5fbe0.png",
+    "static/media/workdayplanner.png": "/ReactPortfolio/static/media/workdayplanner.90c625277a6f64317e5f.png",
+    "static/media/node.png": "/ReactPortfolio/static/media/node.da703b29096826d23e8d.png",
+    "static/media/Brett-Hockridge.pdf": "/ReactPortfolio/static/media/Brett-Hockridge.9c0a2aa23bc63f492087.pdf",
+    "static/media/techblog.png": "/ReactPortfolio/static/media/techblog.0004ea4ba031442ddd3c.png",
+    "static/media/mongoose.png": "/ReactPortfolio/static/media/mongoose.d7449f046ea0ee2350b5.png",
+    "static/media/bootstrap-logo.png": "/ReactPortfolio/static/media/bootstrap-logo.3c4e1a5d3a149087b144.png",
+    "static/media/react.png": "/ReactPortfolio/static/media/react.11c8a26d6ad307c6c881.png",
+    "static/media/codequiz.jpeg": "/ReactPortfolio/static/media/codequiz.eb2cc03c802c8ba09357.jpeg",
+    "static/media/mongodb.png": "/ReactPortfolio/static/media/mongodb.f1483af0b3d58d662686.png",
+    "static/media/jquery.png": "/ReactPortfolio/static/media/jquery.0c43d8c2cd3fc08ecc40.png",
+    "static/media/mysql.png": "/ReactPortfolio/static/media/mysql.8d53beb594a4b59e6ca9.png",
+    "static/media/sequelize.png": "/ReactPortfolio/static/media/sequelize.8daf46c882d3f1f27d1f.png",
+    "static/media/bulma.png": "/ReactPortfolio/static/media/bulma.b29109e2e3fee6b5d638.png",
+    "index.html": "/ReactPortfolio/index.html",
+    "main.7c561dda.css.map": "/ReactPortfolio/static/css/main.7c561dda.css.map",
+    "main.db5bdda9.js.map": "/ReactPortfolio/static/js/main.db5bdda9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c561dda.css",
+    "static/js/main.db5bdda9.js"
+  ]
+}
