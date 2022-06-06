@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ParticleBackground from "./components/ParticleBackground";
+import PortfolioMain from "./react-portfolio/components/PortfolioMain";
+import Footer from "./react-portfolio/components/Footer";
+
+let myStyle = {
+  position: "relative",
+  zIndex: '0 !important"'
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ParticleBackground />
+    <div style={myStyle}>
+        <PortfolioMain />
+        <Footer />
+    </div>     
+  </div>
+  )
 }
 
 export default App;
