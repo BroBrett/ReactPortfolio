@@ -1,7 +1,6 @@
 import React from "react";
-import ParticleBackground from "./components/ParticleBackground";
-import PortfolioMain from "./react-portfolio/components/PortfolioMain";
-import Footer from "./react-portfolio/components/Footer";
+import PortfolioMain from "./components/PortfolioMain";
+import Footer from "./components/Footer";
 
 let myStyle = {
   position: "relative",
