@@ -10,7 +10,6 @@ let myStyle = {
 function App() {
   return (
     <div className="App">
-    <ParticleBackground />
     <div style={myStyle}>
         <PortfolioMain />
         <Footer />

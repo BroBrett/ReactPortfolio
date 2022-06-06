@@ -82,7 +82,7 @@ function Contact() {
         }
       }
   
-      if (validated, validName, validMessage) {
+      if (validated || validName || validMessage) {
   
       }
     }

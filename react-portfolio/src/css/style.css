@@ -1,0 +1,146 @@
+:root {
+    --border-color: black;
+    --shadow-color: rgba(27, 26, 26, 0.4);
+  }
+  
+  .card-container {
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 1em;
+    transition: 0.25s;
+    border-style: solid;
+    color: white;
+    border-width: 2px;
+    background-color: transparent;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0.9em;
+    border-top-right-radius: 0.9em;
+    height: 200px;
+    border-style: none;
+    object-fit: cover;
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px 0 var(--shadow-color), 0 0 10px 4px var(--shadow-color);
+    transform: scale(1.05);
+    border-color: whitesmoke;
+    color: black;
+    background-color: white;
+  }
+  
+  .card-link {
+    color: rgb(16, 218, 12);
+  }
+  
+  .card-link:hover {
+    color: blue;
+  }
+  
+  .logolinks {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: var(--border-color);
+    border-top-width: 1px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .logos {
+    padding-top: 22px;
+  }
+  
+  .copyright {
+    padding-top: 30px;
+  }
+  
+  .copyright strong {
+    color: #fff;
+  }
+  
+  .copyright h4 {
+    font-size: 15px;
+    color: #fff;
+  }
+  .contact {
+    color: white;
+    filter: opacity(1.2);
+    text-decoration: none;
+  }
+  
+  #github,
+  #linkedin,
+  #myemail {
+    text-decoration: none;
+    margin: 10px;
+  }
+  
+  .contact:hover {
+    color: black;
+    filter: opacity(1);
+    text-decoration: none;
+  }
+  
+  #about {
+    margin: 40px 40px 0px 40px;
+    color: black;
+  }
+  
+  #about p {
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+    animation: text_reveal 2.2s ease forwards;
+  }
+  
+  @keyframes text_reveal {
+    1% {
+      font-family: Garamond, Tahoma, sans-serif;
+      font-size: 17px;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 100px;
+    align-self: center;
+    margin: auto;
+  }
+  
+  .logo-long {
+    max-width: 200px;
+    max-height: 50px;
+  }
+  
+  .logo-medium {
+    max-width: 110px;
+    max-height: 75px;
+  }
+
+  #Brett {
+      margin: auto;
+      width: 20rem;
+      display: block;
+  }

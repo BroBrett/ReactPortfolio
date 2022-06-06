@@ -5,11 +5,15 @@ import bootstrap from "../../assets/bootstrap-logo.png";
 import bulma from "../../assets/bulma.png";
 import javascript from "../../assets/javascript.png";
 import jquery from "../../assets/jquery.png";
+import mongodb from "../../assets/mongodb.png";
+import mongoose from "../../assets/mongoose.png";
 import mysql from "../../assets/mysql.png";
 import node from "../../assets/node.png";
 import reactLogo from "../../assets/react.png";
 import sequelize from "../../assets/sequelize.png";
 import express from "../../assets/express.png";
+import resume from "../../assets/Brett-Hockridge.pdf";
+
 
 export default function Resume() {
     return (
@@ -18,7 +22,7 @@ export default function Resume() {
           <a
             className="resume"
             href={resume}
-            download="Jason Yoo's Resume"
+            download="Brett Hockridge's Resume"
             target="blank"
           >
             <h3>Download Resume</h3>
